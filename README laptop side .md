@@ -2,23 +2,10 @@
 
 > **ADHD-Friendly AI-Powered Development Empire** | **Security-First Architecture** | **Revolutionary Methodologies**
 
-<div align="center">
-
-### 🚀💬 **Curious? Want a private walkthrough, collab, or to see the hidden magic?**
-### 👉 **[JOIN THE HYPERFOCUS ZONE FAMILY DISCORD](https://discord.com/invite/ME2qkNy79k)** 👈
-
-> *"Secrets, live demos, and epic collabs are shared with friends inside the Discord — let's build something legendary together!"*
-
-**🔒 All code, workflows, and demo data are safe for public eyes. The real empire magic lives in our community!**
-
-</div>
-
 [![Empire Status](https://img.shields.io/badge/Empire%20Status-LEGENDARY-gold?style=for-the-badge)](https://github.com/welshDog/The-HYPERfocusZONE.com)
 [![System Uptime](https://img.shields.io/badge/Uptime-98.7%25-green?style=for-the-badge)](https://github.com/welshDog/The-HYPERfocusZONE.com)
 [![AI Integration](https://img.shields.io/badge/AI%20Integration-ARIA%20Powered-purple?style=for-the-badge)](https://github.com/welshDog/The-HYPERfocusZONE.com)
 [![Security Level](https://img.shields.io/badge/Security-Fortress%20Level-red?style=for-the-badge)](https://github.com/welshDog/The-HYPERfocusZONE.com)
-[![ADHD Friendly](https://img.shields.io/badge/ADHD-Optimized%20Workflow-brightgreen?style=for-the-badge)](https://discord.com/invite/ME2qkNy79k)
-[![Discord Community](https://img.shields.io/badge/Discord-Join%20The%20Family-7289da?style=for-the-badge&logo=discord)](https://discord.com/invite/ME2qkNy79k)
 
 ---
 
@@ -151,52 +138,7 @@ AI-powered Chief Operations Officer system:
 
 ---
 
-## �💎👑 **BROski♾️ SERVER STATUS: UNBREAKABLE LEGENDARY IMMORTAL** 👑💎🏆
-
-### 🛡️ **GOD-TIER IMMORTAL ARCHITECTURE ACHIEVED**
-
-**CONGRATULATIONS, CHIEF! You're now running the HYPERFOCUS ZONE EMPIRE on the ultimate level that only the most legendary CTOs and tech gods ever manage: Your empire will never die, never sleep, and never lose progress.**
-
-#### 🚀 **IMMORTAL SERVER CAPABILITIES**
-
-**🔄 Auto-Healing:** Services restart if they ever crash (every 60 seconds!)  
-**⚡ Auto-Booting:** After a reboot, all services come back up without you doing anything  
-**💻 VS Code Independence:** You can close server-side VS Code anytime! Your empire keeps running  
-**🛡️ Ultimate Security:** Systemd, Docker Compose, and health watchdogs keep every piece in place  
-**🎮 Instant Control:** Use your laptop as the master controller via SSH whenever you want!
-
-#### 🏆 **YOUR LEGENDARY WORKFLOW IS NOW:**
-
-1. **Close VS Code on the server** - Empire keeps running automatically
-2. **Do EVERYTHING from your laptop** VS Code (using Remote SSH when you want to edit, deploy, or debug)
-3. **Empire never stops running** - Even if you go AFK for days, the auto-healing keeps it all alive
-4. **If something does fail:** Auto-heals within a minute + optional notifications
-5. **Use the laptop to check or fix anything, anytime** - Complete remote control
-
-#### ⚡ **PEAK IMMORTALITY FEATURES**
-
-- **🔧 Ultra-Light Hyper Healer System** - 15-minute auto-healing cycles
-- **📊 Legendary Infrastructure Monitor** - Continuous system health tracking  
-- **🔒 Fortress Sentinel Auto-Upgrade** - Security threats auto-resolved
-- **🌟 Empire Supreme Coordinator** - All systems synchronized
-- **💫 Mobile Healing Dashboard** - Control empire from anywhere
-- **🛡️ Zero-Loss Backup System** - Complete data immortality
-
-#### 🎊 **NEXT LEGENDARY UPGRADE OPTIONS** (Optional)
-
-- **🤖 Discord Notification Bot:** Get DMs if a crash is detected or when healing is triggered
-- **🚀 Auto-Deployment Pipeline:** Git push → auto-pull-and-redeploy on server (true hands-off flow)  
-- **📸 Snapshot Backups:** Periodic backups of configs, data, and code for asteroid-strike protection
-
-#### 👑 **LEGENDARY STATUS CONFIRMED**
-
-**No fear. No stress. Full ADHD-friendly, future-proof, BROski♾️-approved immortal empire status!**
-
-> **ACTIVATION PHRASE:** *"The Empire is Immortal. BROski♾️ Mode: LEGENDARY COMPLETE."*
-
----
-
-## �🌟 **LIVE DEMO ACCESS**
+## 🌟 **LIVE DEMO ACCESS**
 
 ### 🖥️ **Interactive Showcases**
 - **[Admin Portal Demo](./portals/admin-portal-showcase.html)** - Empire management interface
@@ -281,76 +223,6 @@ AI-powered Chief Operations Officer system:
 - **Security by Design** - Protection built into every layer
 - **Continuous Innovation** - Always evolving and improving
 - **Collaborative Intelligence** - AI enhances human creativity
-
----
-
-## 🏆💎⚡ **HYPERFOCUS ZONE - IMMORTAL DEV WORKFLOW** ⚡💎🏆
-
-### 🚀 **BROski♾️ IMMORTAL STRATEGY: HOW TO RULE THE EMPIRE**
-
-Welcome, HyperFocus Legends!  
-Here's the *official* setup for total control, ultimate flexibility, and 100% dopamine-driven progress.  
-**Laptop = Your Commander. Server = Your Galactic Core. YOU = The Bridge.**
-
-#### 💻 **1. UNIVERSAL CONTROLLER MODE (Laptop VS Code + Remote SSH)**
-
-- **Laptop runs VS Code as your main controller**
-- **Install Remote-SSH extension** in VS Code
-- **Add your server** (see SSH setup below)
-- **Open and edit all server files** directly—one window, one mind, all the power
-- Fast context switching: brainstorm on laptop, deploy from server—NO MORE "which side am I on?"
-
-#### 🖥️ **2. IMMORTAL SERVER OPS (Server Does the Heavy Lifting)**
-
-- Server stays online, 24/7, never sleeps
-- All empire processes, portals, dashboards, and AI agents run on the server
-- You deploy, test, and monitor from your laptop's VS Code, anywhere, anytime
-
-#### 🔄 **3. "SYNC FIRST, BUILD FAST" WORKFLOW**
-
-- Make quick changes/notes on your laptop
-- Push changes to Git (`git add . && git commit -m "update 💎" && git push`)
-- Pull on the server (`git pull`), deploy instantly!
-- *ADHD Tip:* Mark sync points with emojis/notes for clarity!
-
-#### 🛡️ **4. GIT AUTO-SYNC FOR IMMORTAL SAFETY**
-
-- Empire codebase always lives in Git (GitHub, GitLab, or private server)
-- **Laptop:** Code, commit, push
-- **Server:** Pull, deploy
-- *BONUS:* Ask BROski for a script to automate this if you want LEGENDARY SPEED!
-
-#### 🎮 **5. DOPAMINE REWARD STREAKS (STAY LEGENDARY!)**
-
-- Each sync/focus swap = +BROski$
-- Use Notion, Obsidian, Google Sheet, or Discord dashboard to track
-- Weekly leaderboard = dopamine party + custom GIF celebration!
-
-### 🏆 **QUICK REFERENCE**
-
-| **Action**             | **Where?**  | **How?**                                    |
-|------------------------|-------------|---------------------------------------------|
-| Quick edit/brainstorm  | Laptop      | VS Code (local)                             |
-| Deploy/test/run ops    | Server      | VS Code (Remote SSH)                        |
-| Big update/sync        | Both        | Commit/push from laptop, pull on server     |
-| Emergency fix          | Remote      | SSH in, VS Code, patch, deploy, done!       |
-
-### ⚡ **HOW TO SET UP REMOTE-SSH IN VS CODE (Quick Guide)**
-
-1. Install the **Remote - SSH** extension in VS Code.
-2. Press **F1** > `Remote-SSH: Add New SSH Host...`
-3. Enter your server: `ssh username@SERVER_IP`
-4. Save & Connect!
-5. Open your project folder—you're now commanding the empire!
-
-### 🌟 **IMMORTAL DEV WORKFLOW MOTTO**
-
-- **ADHD-friendly, flexible, and immortal**—*no dev left behind*
-- **Any team member can join from anywhere** and be LEGENDARY
-- **No more lost work, no more confusion**—*only unstoppable progress*
-
-**ACTIVATION PHRASE:**  
-> "Laptop = Commander. Server = Core. BROski♾️ Mode: Engaged."
 
 ---
 
@@ -445,29 +317,10 @@ Empire Showcase Successfully Deployed!
 
 <div align="center">
 
-## 🚀🤝 **READY TO JOIN THE LEGENDARY EMPIRE?** 🤝🚀
-
-### 👉 **[JOIN THE HYPERFOCUS ZONE FAMILY DISCORD](https://discord.com/invite/ME2qkNy79k)** 👈
-
-**� Get exclusive access to:**
-- 🔥 **Live development sessions** and pair programming
-- 🤖 **AI agent coordination** and advanced workflows  
-- 💎 **Private memory crystals** and empire secrets
-- 🚀 **Direct collaboration** on legendary projects
-- 🎊 **Team celebrations** and dopamine-powered rewards
-
-> *"Want a dev or founder demo? Just ask in Discord! We love showing off the magic behind the curtain."*
-
-**🛡️ All real secrets locked in the Chaos Vault — Discord is where legends are made!**
-
----
-
-**�🌟 LEGENDARY EMPIRE SHOWCASE 🌟**
+**🌟 LEGENDARY EMPIRE SHOWCASE 🌟**
 
 *Demonstrating the future of ADHD-friendly, AI-powered development*
 
-[![Built with Love](https://img.shields.io/badge/Built%20with-💜%20Love%20%26%20AI-purple?style=for-the-badge)](https://discord.com/invite/ME2qkNy79k)
-[![Join Discord](https://img.shields.io/badge/Discord-Build%20With%20Us-7289da?style=for-the-badge&logo=discord)](https://discord.com/invite/ME2qkNy79k)
-[![ADHD Optimized](https://img.shields.io/badge/ADHD-Optimized%20Empire-brightgreen?style=for-the-badge)](https://discord.com/invite/ME2qkNy79k)
+[![Built with Love](https://img.shields.io/badge/Built%20with-💜%20Love%20%26%20AI-purple?style=for-the-badge)](https://github.com/welshDog/The-HYPERfocusZONE.com)
 
 </div>
