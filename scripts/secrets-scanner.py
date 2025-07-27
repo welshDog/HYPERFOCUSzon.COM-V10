@@ -112,40 +112,76 @@ class BroskiSecretsScanner:
     def display_findings(self, findings: List[Dict]) -> None:
         """Display scan results"""
         if not findings:
-            print("🎉 SUCCESS: No secrets detected! Safe to commit! 🛡️")
+            try:
+                print("🎉 SUCCESS: No secrets detected! Safe to commit! 🛡️")
+            except UnicodeEncodeError:
+                print("SUCCESS: No secrets detected! Safe to commit!")
             return
             
-        print(f"🚨 DANGER: {len(findings)} potential secrets detected!")
+        try:
+            print(f"🚨 DANGER: {len(findings)} potential secrets detected!")
+        except UnicodeEncodeError:
+            print(f"DANGER: {len(findings)} potential secrets detected!")
         print("=" * 60)
         
         for finding in findings:
-            print(f"📁 File: {finding['file']}")
-            print(f"📍 Line: {finding['line']}")
-            print(f"🔍 Type: {finding['type']}")
-            print(f"🎯 Match: {finding['match']}")
-            print(f"📝 Context: {finding['context']}")
+            try:
+                print(f"📁 File: {finding['file']}")
+                print(f"📍 Line: {finding['line']}")
+                print(f"🔍 Type: {finding['type']}")
+                print(f"🎯 Match: {finding['match']}")
+                print(f"📝 Context: {finding['context']}")
+            except UnicodeEncodeError:
+                print(f"File: {finding['file']}")
+                print(f"Line: {finding['line']}")
+                print(f"Type: {finding['type']}")
+                print(f"Match: {finding['match']}")
+                print(f"Context: {finding['context']}")
             print("-" * 40)
             
-        print("\n🛡️ RECOMMENDATIONS:")
-        print("1. Remove secrets and use environment variables")
-        print("2. Add sensitive files to .gitignore")  
-        print("3. Use config templates instead of real secrets")
-        print("4. Join Discord for security best practices!")
-        print("\n👉 Discord: https://discord.com/invite/ME2qkNy79k 👈")
+        try:
+            print("\n🛡️ RECOMMENDATIONS:")
+            print("1. Remove secrets and use environment variables")
+            print("2. Add sensitive files to .gitignore")  
+            print("3. Use config templates instead of real secrets")
+            print("4. Join Discord for security best practices!")
+            print("\n👉 Discord: https://discord.com/invite/ME2qkNy79k 👈")
+        except UnicodeEncodeError:
+            print("\nRECOMMENDATIONS:")
+            print("1. Remove secrets and use environment variables")
+            print("2. Add sensitive files to .gitignore")  
+            print("3. Use config templates instead of real secrets")
+            print("4. Join Discord for security best practices!")
+            print("\nDiscord: https://discord.com/invite/ME2qkNy79k")
 
 def main():
     """Main scanner entry point"""
-    print("🛡️💎 BROski♾️ Git Secrets Scanner - LEGENDARY SECURITY MODE! 💎🛡️")
-    print()
+    # Set UTF-8 encoding for Windows compatibility
+    import os
+    if os.name == 'nt':  # Windows
+        os.system('chcp 65001 >nul 2>&1')
+    
+    try:
+        print("🛡️💎 BROski♾️ Git Secrets Scanner - LEGENDARY SECURITY MODE! 💎🛡️")
+        print()
+    except UnicodeEncodeError:
+        print("BROSKI SECURITY SCANNER - LEGENDARY MODE ACTIVATED!")
+        print()
     
     # Get directory to scan
     scan_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('.')
     
     if not scan_dir.exists():
-        print(f"❌ Directory {scan_dir} does not exist!")
+        try:
+            print(f"❌ Directory {scan_dir} does not exist!")
+        except UnicodeEncodeError:
+            print(f"ERROR: Directory {scan_dir} does not exist!")
         sys.exit(1)
         
-    print(f"🔍 Scanning directory: {scan_dir.absolute()}")
+    try:
+        print(f"🔍 Scanning directory: {scan_dir.absolute()}")
+    except UnicodeEncodeError:
+        print(f"Scanning directory: {scan_dir.absolute()}")
     print()
     
     # Initialize scanner and run
@@ -157,10 +193,16 @@ def main():
     
     # Exit with error code if secrets found
     if findings:
-        print(f"\n🚫 COMMIT BLOCKED: Fix {len(findings)} security issues first!")
+        try:
+            print(f"\n🚫 COMMIT BLOCKED: Fix {len(findings)} security issues first!")
+        except UnicodeEncodeError:
+            print(f"\nCOMMIT BLOCKED: Fix {len(findings)} security issues first!")
         sys.exit(1)
     else:
-        print("\n✅ COMMIT APPROVED: All security checks passed!")
+        try:
+            print("\n✅ COMMIT APPROVED: All security checks passed!")
+        except UnicodeEncodeError:
+            print("\nCOMMIT APPROVED: All security checks passed!")
         sys.exit(0)
 
 if __name__ == "__main__":
